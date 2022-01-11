@@ -1,3 +1,5 @@
+import fetch from 'node-fetch'
+
 let emoji = '👨🏿‍🦳👩🏾‍❤️‍👩🏽'
 console.log(emoji)
 
@@ -12,3 +14,21 @@ console.log(...unicodeArr)
 // convert array of unicodes back to emoji
 emoji = String.fromCodePoint(...unicodeArr)
 console.log(emoji)
+
+fetch('https://unicode.org/emoji/charts-14.0/emoji-ordering.txt')
+  .then(res => res.text())
+  // .then(content => console.log(content))
+  .catch(err => console.error(err))
+
+// Make an array for each line
+// Create a processof for extracting emoji, name and code
+// Hash an ID from code
+const exampleObject = {
+  '😀': {
+    id: '123456',
+    slug: 'grinning_face',
+    code: ['0x1f600']
+  }
+}
+
+console.log(exampleObject)
