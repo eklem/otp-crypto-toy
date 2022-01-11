@@ -1,0 +1,26 @@
+{
+  "name": "otp-encryption-decryption-toy",
+  "version": "0.0.1",
+  "description": "Toy for kids to encrypt/decrypt messages with one time pads on their phone",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eklem/otp-encryption-decryption-toy.git"
+  },
+  "keywords": [
+    "otp",
+    "encryption",
+    "decryption",
+    "privacy",
+    "toy"
+  ],
+  "author": "Espen Klem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eklem/otp-encryption-decryption-toy/issues"
+  },
+  "homepage": "https://github.com/eklem/otp-encryption-decryption-toy#readme"
+}
