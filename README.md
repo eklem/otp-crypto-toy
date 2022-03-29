@@ -13,3 +13,6 @@ For usage of one-time pad encryptio/decryption to be easy, the distribution of o
 
 ### Emojis 😜
 Emojis are a part of our digital language now, so the toy will be able to encrypt and decrypt all unicode emojis (1800 + skin tone variations on some of them).
+
+## Library
+This will be the web application (for phones), and the core libraries will be found at [otp-encryption-decryption-tools](https://github.com/eklem/otp-encryption-decryption-tools)
