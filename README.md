@@ -1,4 +1,4 @@
-# OTP encryption/decryption toy
+# OTP encryption toy
 Toy for kids to encrypt/decrypt messages with one time pads (OTP). Or OTP done playfully easy.
 
 Goal: To make it harder for corporations to aggregate kids user knowledge and police/authoroties to invade their privacy. But also teaching kids about keeping safe will be a win I think.
